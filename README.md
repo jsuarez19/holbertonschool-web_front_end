@@ -1,2 +1,2 @@
 # holbertonschool-web_front_end
-First project in HTML 5
+First project in web development
