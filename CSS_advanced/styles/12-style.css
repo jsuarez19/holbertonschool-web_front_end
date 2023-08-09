@@ -5,17 +5,17 @@ html{
 body{
     color: var(--color-black);
 }
-a[href]{
+a[href]:not([href^="tel"]):not([href^="mailto"]){
     color: var(--color-black);
     text-decoration: none;
 }
-a[href]:visited{
+a[href]:not([href^="tel"]):not([href^="mailto"]):visited{
     font-style: italic;
 }
-a[href]:hover{
+a[href]:not([href^="tel"]):not([href^="mailto"]):hover{
     text-decoration: underline;
 }
-a[href]:active{
+a[href]:not([href^="tel"]):not([href^="mailto"]):active{
     background-color: var(--color-light-grey);
 }
 body{
