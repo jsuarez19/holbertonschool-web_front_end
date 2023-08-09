@@ -2,11 +2,21 @@ html{
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
-body, a{
+body{
     color: var(--color-black);
 }
-a{
+a:any-link{
+    color: var(--color-black);
     text-decoration: none;
+}
+a:visited{
+    font-style: italic;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    background-color: var(--color-light-grey);
 }
 body{
     font-family: var(--font-family-base);
