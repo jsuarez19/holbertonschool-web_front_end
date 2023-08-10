@@ -202,7 +202,7 @@ ul.row{
     width: 0;
     height: 20%;
 }
-.nav .nav-item::before:hover{
+.nav .nav-link::before:hover{
     background-color: var(--color-primary);
     width: 100%;
 }
